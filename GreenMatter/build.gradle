@@ -9,7 +9,7 @@ def siteUrl = 'https://github.com/negusoft/GreenMatter'
 def gitUrl = 'https://github.com/negusoft/GreenMatter.git'
 def issuesUrl = 'https://github.com/negusoft/GreenMatter/issues'
 
-version = '0.7-alpha'
+version = '0.8'
 group = 'com.negusoft.greenmatter'
 
 android {
@@ -38,8 +38,8 @@ dependencies {
 }
 
 bintray {
-    user = BINTRAY_USERNAME
-    key = BINTRAY_API_KEY
+    // user = BINTRAY_USERNAME
+    // key = BINTRAY_API_KEY
 
     configurations = ['archives'] //When uploading configuration files
     pkg {
